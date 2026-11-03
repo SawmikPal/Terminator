@@ -1,0 +1,9 @@
+# Sample ~/.terminatorrc  (copy to ~/.terminatorrc)
+# One option per line: bind <action> <key>
+# Run `bind -l` inside Terminator to list every action and its keys.
+# A bad line prints a warning when Terminator starts and keeps the default.
+
+bind clear-screen Ctrl+Shift+L
+bind delete-word Alt+Backspace
+# bind history-search Ctrl+S
+# bind new-tab Ctrl+T
